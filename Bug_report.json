@@ -1,1 +1,23 @@
-
+{
+"BugReport":[
+   {
+   "summary": "The login page crashes when attempting to enter a username with a special character",
+   "descriprion": "WS dosen't provide information if response containes more than 9 characters",
+   "actualResult": "information gets",
+   "expectedResult": "information doesen't get",
+   "requirementId": "requirement",
+   "reproducedOn": "Win 11",
+   "reproducibility": "always",
+   "workaround": "no",
+   "stepsTOreproduce":[
+        {"one": "1. Navigate to the login page",
+        "two": "2. Enter a username with a special character (e.g. !@#$%)",
+        "three": "3. Click on the 'Login' button",
+        "four": "4. Observe the page crashing",
+    }
+                      ],
+   "severity": "minor",
+   "priority": "low"
+   }  
+   ]
+}
